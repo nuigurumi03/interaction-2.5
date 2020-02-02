@@ -1,4 +1,3 @@
-# Load DSL and set up stages
 require "capistrano/setup"
 require "capistrano/deploy"
 require "capistrano/rbenv"
@@ -9,7 +8,7 @@ require 'capistrano3/unicorn'
 
 Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
 # Include default deployment tasks
-
+# Load DSL and set up stages
 
 # Load the SCM plugin appropriate to your project:
 #
