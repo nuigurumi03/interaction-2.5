@@ -6,7 +6,7 @@ lock '3.11.2'
 set :application, 'interaction-2.5'
 
 # どのリポジトリからアプリをpullするかを指定する
-set :repo_url,  'git@github.com:nuigurumi03/interaction-2.5.git'
+set :repo_url,  'git@github.com:nuigurumi0/interaction-2.5.git'
 
 # バージョンが変わっても共通で参照するディレクトリを指定
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
